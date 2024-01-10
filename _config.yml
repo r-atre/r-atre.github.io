@@ -1,0 +1,54 @@
+# Remote theme directory
+remote_theme: analytics-link/analytics-link.github.io
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-remote-theme
+
+#-------------------------------
+# General Site Settings
+title: Rahul Atre
+description: "I'm an ambitious technology enthusiast currently enrolled in the Math and Comp. Sci dual-degree program at uOttawa. I have prior research experience developing a Separation-Reduction algorithm for enhanced computation of the Probablistic Transitive Closure (PTC). Presently, I am interested in the field of machine learning (NLP and Transformers) and the technology-driven world of capital markets. Please visit my Github & LinkedIn pages (or download my Resume) by using the links below!"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+#-------------------------------
+# About Section
+subtitle: Data Science <span style="color:#f58506"> Portfolio </span>
+location: "Ottawa, Canada"
+resume_url: /docs/resume.pdf
+avatar_image: /img/profile_picture.jpg
+
+#-------------------------------
+# Contact links
+linkedln: "https://www.linkedin.com/in/rahul-atre/" 
+github: "https://github.com/RahulAtre"  
+
+paginate: 6
+paginate_path: "/page/:num"
+
+sass:
+  sass_dir: _sass
+  style: compressed # possible values: nested expanded compact compressed
+
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: post
+      read_time: true
+      share: false
+
+
+#-------------------------------
+# Exclude from processing.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
