@@ -9,7 +9,7 @@ plugins:
 #-------------------------------
 # General Site Settings
 title: Rahul Atre
-description: "I'm an ambitious technology enthusiast currently enrolled in the Math and Comp. Sci dual-degree program at uOttawa. I have prior research experience developing a Separation-Reduction algorithm for enhanced computation of the Probablistic Transitive Closure (PTC). Presently, I am interested in the field of machine learning (NLP and Transformers) and the technology-driven world of capital markets. Please visit my Github & LinkedIn pages (or download my Resume) by using the links below!"
+description: "I'm an ambitious technology enthusiast currently enrolled in the Math and Comp. Sci dual-degree program at uOttawa. I have prior research experience developing a Separation-Reduction algorithm for enhanced computation of the Probablistic Transitive Closure (PTC). Presently, I am interested in the field of machine learning (NLP and Transformers) and healthcare. Please visit my Github & LinkedIn pages (or download my Resume) by using the links below!"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
